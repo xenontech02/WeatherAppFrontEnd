@@ -49,9 +49,8 @@ The app will be available at `http://localhost:5173` by default.
 4. After deployment, your site will be live at `https://your-site-name.netlify.app`.
 
 #### Netlify Badge
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://your-site-name.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7056528a-012d-4524-bba3-06d17516e4bc/deploy-status)](https://app.netlify.com/projects/weatherappfrontendonly/deploys)
 
-*Replace the badge and link above with your actual Netlify site details after deployment.*
 
 ## Custom Domain
 
