@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# Weather Comparison App
 
-## Project info
+A modern web application to compare weather conditions between cities, view current weather, and see temperature trends with interactive charts.
 
-**URL**: https://lovable.dev/projects/eb0a6e42-73ae-46a3-a9f6-c1026ba83601
+## Features
 
-## How can I edit this code?
+- **City Search:** Quickly search and select cities to compare their weather.
+- **Current Weather:** View real-time weather details for selected cities.
+- **7-Day Forecast:** See a week-long weather forecast for each city.
+- **Temperature Chart:** Visualize temperature trends with interactive charts.
+- **Responsive UI:** Clean, mobile-friendly design using React, Tailwind CSS, and shadcn-ui components.
 
-There are several ways of editing your application.
+## Technologies Used
 
-**Use Lovable**
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn-ui](https://ui.shadcn.com/)
+- [OpenWeatherMap API](https://openweathermap.org/api)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/eb0a6e42-73ae-46a3-a9f6-c1026ba83601) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
+- Node.js & npm ([Download](https://nodejs.org/))
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# 1. Clone the repository
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 2. Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 3. Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be available at `http://localhost:5173` by default.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Deployment
 
-**Use GitHub Codespaces**
+### Deploy to Netlify
+1. Push your code to GitHub.
+2. Go to [Netlify](https://app.netlify.com/) and create a new site from Git.
+3. Connect your GitHub repo and set the build command to `npm run build` and publish directory to `dist`.
+4. After deployment, your site will be live at `https://your-site-name.netlify.app`.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+#### Netlify Badge
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-id/deploy-status)](https://your-site-name.netlify.app)
 
-## What technologies are used for this project?
+*Replace the badge and link above with your actual Netlify site details after deployment.*
 
-This project is built with:
+## Custom Domain
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+You can add a custom domain in your Netlify site settings after deployment.
 
-## How can I deploy this project?
+## Credits
+- Weather data powered by [OpenWeatherMap](https://openweathermap.org/)
+- UI components by [shadcn-ui](https://ui.shadcn.com/)
 
-Simply open [Lovable](https://lovable.dev/projects/eb0a6e42-73ae-46a3-a9f6-c1026ba83601) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Feel free to contribute or open issues for suggestions and bug reports!
